@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    color: white;
+}
+.font{
+    font-family: 'Baloo 2', cursive;
+}
+
+.material-symbols-sharp {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.material-symbols-outlined {
+    margin-top:30px ;
+    margin-left: 20px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 40
+}
+
+nav ul li a{
+     text-decoration: none;
+     text-transform: uppercase;
+     color: white;
+}
+nav ul li a:hover{
+    border-bottom: 3px solid rgb(101, 89, 209);
+    letter-spacing: 1px;
+    transition: .1s ease;
+}
+nav ul li{
+     list-style: none;
+}
+
+.background-pic{
+         
+         background:url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870") no-repeat;
+         background-size: cover;
+         height: 500px;
+         width: 100%;
+         position: relative;
+         z-index: 1;
+
+         
+}
+.color-overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: #0c233a;
+    height: 500px;
+    width: 100%;
+    z-index: -1;
+    opacity: .7;
+}
+.text-layer{
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
